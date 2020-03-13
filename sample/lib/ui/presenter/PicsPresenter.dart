@@ -1,4 +1,4 @@
-import 'package:sample/Injector/Injector.dart';
+import 'package:sample/injector/Injector.dart';
 import 'package:sample/ui/view/PicsView.dart';
 import 'package:sample/ui/viewmodel/PicsViewModel.dart';
 import 'package:sample/usecase/PicsUseCase.dart';

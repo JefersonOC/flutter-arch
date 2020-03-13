@@ -88,13 +88,16 @@ class _HomePageState extends State<HomePage> implements PicsView {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Icon(FontAwesomeIcons.windowClose, size: 128,),
+                    Icon(
+                      FontAwesomeIcons.addressCard,
+                      size: 128,
+                    ),
                     Divider(),
                     Text(
                       "hmm... ainda não há imagens.",
                       style: Theme.of(context)
                           .textTheme
-                          .display4
+                          .display1
                           .copyWith(fontSize: 18),
                       textAlign: TextAlign.center,
                     ),
@@ -103,7 +106,7 @@ class _HomePageState extends State<HomePage> implements PicsView {
                       "seja o primeiro!",
                       style: Theme.of(context)
                           .textTheme
-                          .display4
+                          .display1
                           .copyWith(fontSize: 24),
                       textAlign: TextAlign.center,
                     ),
